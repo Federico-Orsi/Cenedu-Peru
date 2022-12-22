@@ -1,0 +1,121 @@
+.backGround {
+  background-color: #2481E7;
+}
+
+.hoverDropDown:hover {
+  color: #2481E7;
+  background-color: #fff;
+  border-radius: 20%;
+  margin-left: 8%;
+  margin-right: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.hoverNavBar:hover {
+  color: #2481E7;
+  background-color: #fff;
+  border-radius: 10%;
+  padding-inline: 7%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.hoverLanguages:hover {
+  color: #2481E7;
+  background-color: #fff;
+  border-radius: 20%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.whiteDrop {
+  color: #fff;
+}
+
+.logoCenedu {
+  width: 75%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.a-logo {
+  width: 29%;
+}
+
+.containerRedesSociales {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  margin-left: 7%;
+  margin-right: 3%;
+}
+
+.imgRedondeada {
+  width: 100px;
+  height: 100px;
+}
+
+.blueSpan {
+  color: #2481E7;
+}
+
+.divONU {
+  background-color: #3B516E;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 1px;
+  padding-inline: 3%;
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.divDatosEstadisticos {
+  background-color: #A8CDF5;
+}
+
+.spanDatosEstadisticos {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2481E7;
+}
+
+.botonDatosEstadisticos {
+  width: 98px;
+  height: 98px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: none;
+  color: #2481E7;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.pDatosEstadisticos {
+  color: #3B516E;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+footer {
+  background-color: #3B516E;
+  padding-top: 1%;
+}/*# sourceMappingURL=style.css.map */
