@@ -23,7 +23,9 @@
 }
 
 .divDatosEstadisticos{
-    background-color: #A8CDF5
+    background-color: #A8CDF5;
+    
+    
 }
 
 .spanDatosEstadisticos{
@@ -47,6 +49,9 @@ color: #2481E7
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
+    &:hover{
+        cursor:default;
+    }
 }
 
 .pDatosEstadisticos{
