@@ -56,6 +56,16 @@
   margin-right: 3%;
 }
 
+.navbar-dark {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
 .imgRedondeada {
   width: 100px;
   height: 100px;
