@@ -4,8 +4,31 @@
     
 }
 
+.navbar-dark{
+    border-color: rgba(255,255,255,.1);
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.widthQueHacemos{
+    width: fit-content;
+}
+
+.logoCenedu{
+    width: 65%;
+    
+}
+
+.a-logo{
+ width: 65%;
+}    
 
 .hoverDropDown:hover{
+    
     color: #2481E7;
     background-color: #fff;
     border-radius: 20%;
@@ -14,6 +37,9 @@
     padding-left: 5%;
     padding-right: 5%;
     width: fit-content;
+
+   
+    
 }
 
 .hoverNavBar:hover{
@@ -25,14 +51,18 @@
     padding-bottom: 2%;
 }
 
-.hoverLanguages:hover{
+.hoverLanguages{
+    
+    margin-top: 11%;
+    
+    &:hover{
     color: #2481E7;
     background-color: #fff;
     border-radius: 20%;
     height: fit-content;
     padding-left: 1%;
     padding-right: 1%; 
-    
+ }
 }
 
 .whiteDrop{
@@ -40,29 +70,43 @@
     
 }
 
-.logoCenedu{
-    width: 75%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-.a-logo{
- width: 29%;
-}
-
 .containerRedesSociales{
     border-left:  2px solid #fff;
     border-right:  2px solid #fff;
-    margin-left: 7%;
+    margin-top: 6%;
+    width: fit-content;
     margin-right: 3%;
 }
 
-.navbar-dark{
-    border-color: rgba(255,255,255,.1);
+
+@media(min-width:768px) {
+    
+    .logoCenedu{
+        width: 75%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    
+    .a-logo{
+     width: 29%;
+    }    
+    
+    .widthQueHacemos{
+        width: max-content;
+    }
+    
+
+    .containerRedesSociales{
+        border-left:  2px solid #fff;
+        border-right:  2px solid #fff;
+        margin-top: 0;
+        margin-left: 7%;
+        margin-right: 3%;
+    }
+
 }
 
-.navbar-toggler:focus {
-    text-decoration: none;
-    outline: 0;
-    box-shadow: none;
-}
+
+
+
+

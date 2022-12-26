@@ -1,10 +1,14 @@
 .imgRedondeada{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 }
 
 .blueSpan{
     color: #2481E7 ;
+}
+
+.containerDivsQueHacemos{
+    margin-left: 10%;
 }
 
 .divONU{
@@ -34,7 +38,8 @@ font-style: normal;
 font-weight: 600;
 font-size: 24px;
 line-height: 30px;
-color: #2481E7
+color: #2481E7;
+margin-left: 24%;
 }
 
 .botonDatosEstadisticos{
@@ -63,4 +68,54 @@ color: #2481E7
     font-size: 16px;
     line-height: 19px;
         
+}
+
+.divQueHacemos{
+    margin-right: 3%;
+}
+
+.widthPQueHacemos{
+    width: 95%;
+ }
+
+ .widthH4QueHacemos{
+    width: 100% ;
+ }
+
+ .displayEstadisticas{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+ }
+
+@media(min-width:768px){
+
+    .containerDivsQueHacemos{
+        margin-left: 20%;
+    }
+
+    .imgRedondeada{
+        width: 100px;
+        height: 100px;
+    }  
+
+ .widthPQueHacemos{
+    width: 635px;
+ }
+
+ .widthH4QueHacemos{
+    width: 677px ;
+ }
+
+ .displayEstadisticas{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+ }
+
+ .spanDatosEstadisticos{
+    
+    margin-left: 5%;
+    }
+
 }
