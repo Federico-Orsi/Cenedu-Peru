@@ -183,7 +183,32 @@
   margin-left: 12%;
 }
 
+.visibilityVideo {
+  visibility: hidden;
+  display: none;
+}
+
+.textCarousel {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 6%;
+}
+
 @media (min-width: 768px) {
+  .visibilityVideo {
+    visibility: visible;
+    display: unset;
+  }
+  .visibilityCarousel {
+    visibility: hidden;
+    display: none;
+  }
   .containerDivsQueHacemos {
     margin-left: 20%;
   }
