@@ -494,4 +494,16 @@ footer {
 .img-carousel-donantes {
   width: 124px;
   height: 152px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.carousel {
+  height: 15rem;
+}
+
+.carousel-indicators {
+  margin-bottom: 0 !important;
 }/*# sourceMappingURL=style.css.map */
