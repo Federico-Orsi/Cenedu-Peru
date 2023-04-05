@@ -75,55 +75,44 @@
         </nav>
     </header>
 
-    <!-- <form id="form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br><br>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea><br><br>
-            <input type="submit" value="Submit">
-        </form> -->
+    <div class="position-relative">
+        <img class="w-100" src="./img/contactanos.png" alt="">
+        <h1 class="position-absolute banner-contactanos-text">Contactanos</h1>
+    </div>
 
     <div class="container">
         <div class="row">
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-md-6 col-xs-6">
-                <h6 class="pb-3">Contacto</h6>
-                <form id="formulario" action="" class="container">
+                <form id="contactForm" action="?" method="POST" class="my-5 container">
                     <div class="row mb-3">
                         <div class="col">
                             <label class="form-label">Nombre y Apellido</label>
-                            <input id="nombreCliente" type="text" class="form-control" placeholder=""
+                            <input id="clientName" type="text" class="form-control" placeholder=""
                                 aria-label="First and Last name" required>
                         </div>
-                        <!-- <div class="col">
-                                <label class="form-label">Apellido</label>
-                                <input id="apellidoCliente" type="text" class="form-control" placeholder=""
-                                    aria-label="Last name" required>
-                            </div> -->
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
-                        <input id="emailCliente" type="email" class="form-control" required>
+                        <input id="clientEmail" type="email" class="form-control" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="text">Asunto</label>
-                        <input id="asuntoCliente" type="text" class="form-control" required>
+                        <input id="clientSubject" type="text" class="form-control" required>
                     </div>
                     <div class="mb-3">
                         <label for="textoConsultas" class="form-label">Escriba su mensaje</label>
-                        <textarea class="form-control" id="textoConsultas" rows="3" required></textarea>
+                        <textarea class="form-control" id="bodyText" rows="3" required></textarea>
                     </div>
-
-                    <button id="btnFormularioContacto" type="submit" class="btn btn-primary">Enviar</button>
+                    <button id="btnFormularioContacto" type="submit" class="btn btn-primary"
+                        data-sitekey="your_site_key" data-callback="onSubmit">Enviar</button>
                 </form>
             </div>
 
             <div class="div-container d-flex flex-column col-xxl-6 col-xl-4 col-lg-6 col-md-6 col-xs-12">
-                <div>
-                    <h3><img class="img-contacto" src="./img/contacto.png" alt="">José Perez</h3>
-                    <h3><img class="img-contacto" src="./img/correo.png" alt="">info@cenedu.org</h3>
-                    <h3><img class="img-contacto" src="./img/telefono.png" alt="">1158654253</h3>
+                <div class="mb-5 mt-5">
+                    <h3><img class="me-2 img-contacto" src="./img/contacto.png" alt="partner name">José Perez</h3>
+                    <h3><img class="me-2 img-contacto" src="./img/correo.png" alt="cenedu's email">info@cenedu.org</h3>
+                    <h3><img class="me-2 img-contacto" src="./img/telefono.png" alt="phone contact">1158654253</h3>
                 </div>
             </div>
         </div>
@@ -135,11 +124,16 @@
         <p class="ms-1 text-light">2022 Todos los derechos reservados</p>
     </footer>
 
+    <script src="scripts/form-encode.js"></script>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('ehAgQJdXHDcX7PrA7')
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="scripts/form-encode.js"></script>
 </body>
 
 </html>
