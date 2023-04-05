@@ -25,11 +25,11 @@ const sendEmail = (bodyAlert) => {
     message: clientBody.value,
   };
 
-  let serviceID = "service_zte3jwt";
-  let templateID = "template_avh19j4";
+  let serviceID = "service_zte3jwt"; //YOUR_SERVICE_ID
+  let templateID = "template_avh19j4"; //YOUR_TEMPLATE_ID'
 
   emailjs
-    .send(serviceID, templateID, params)
+    .send(serviceID, templateID, params) //emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
     .then(function (response) {
       alerts(bodyAlert);
       //console.log(JSON.stringify(response));
